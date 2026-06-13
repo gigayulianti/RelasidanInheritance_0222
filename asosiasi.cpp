@@ -84,4 +84,21 @@ int main()
     pasien* varPasien1 = new pasien("Andi");
     pasien* varPasien2 = new pasien("Lia");
 
-    
+    //pemanggilan dan pemberian argument prosedur tambahPasien() dari class dokter
+    varDokter1->tambahPasien(varPasien1);
+    varDokter1->tambahPasien(varPasien2);
+    vaeDokter2->tambahPasien(varPasien1);
+
+    //pemanggilan prosedur cetakPasien() dari class dokter
+    varDokter1->cetakPasien();
+    varDokter2->cetakPasien();
+    varPasien1->cetakDokter();
+    varPasien2->cetakDokter();
+
+    //mendete variabel - variabel pointer dari memori
+    delete varPasien1;
+    delete varPasien2;
+    delete varDokter1;
+    delete varDokter2;
+
+    return 0;

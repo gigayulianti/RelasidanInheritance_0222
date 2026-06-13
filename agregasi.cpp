@@ -20,4 +20,17 @@ intmain()
     varIbu1->tambahAnak(varAnak3);
     varIbu2->tambahAnak(varAnak1);
 
-    
+    var ibu->cetakAnak();
+    var ibu2->cetakAnak();
+
+    delete varIbu;
+    delete varibu2;
+    delete varAnak1;
+    delete varAnak2;
+    delete varAnak3;
+
+    system("pause");
+
+    return 0;
+
+}

@@ -44,4 +44,13 @@ public:
         cout << "Dokter \" << nama << "\" tidak ada \n";
     }
 
-    
+    //deklarasi prosedur tambahPasien() dan CetakPasien()
+    void tambahPasien(pasien*);
+    void cetakPasien();
+};
+
+//pendefisinian prosedur - prosedur dari class dokter class pasien diluar class
+void pasien::tambahDokter(dokter* pDokter) {
+    daftar_dokter.push_back(pDokter);
+};
+

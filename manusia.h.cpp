@@ -7,13 +7,4 @@ public:
     string nama;
     Jantung varJantung;
 
-    //membuat constructor dan descructor class manusia
-    Manusia(string pName) : name(pName) {
-        cout << name << "Hidup\n";
-    }
-
-    ~Manusia() {
-        cout << name << "Mati\n";
-    }
-};
-#endif // !MANUSIA_H
+    /
